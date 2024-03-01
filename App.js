@@ -1,16 +1,16 @@
 import LocationPermit from "./components/LocationPermit"
 
-export default function App() {
+export default App = () => {
   return (
     <LocationPermit name="LocationPermit" component={LocationPermit} option={{ headerShown: false }} />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
